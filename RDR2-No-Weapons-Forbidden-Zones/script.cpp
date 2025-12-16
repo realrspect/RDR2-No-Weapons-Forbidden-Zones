@@ -22,7 +22,7 @@ static void AllowWeaponsInRhodes()
     if (MISSIONDATA::MISSIONDATA_WAS_COMPLETED(TheNewSouth) && !MISSIONDATA::MISSIONDATA_WAS_COMPLETED(AShortWalkInAPrettyTown))
     {
         // Changing this global to zero effectively disables the restriction zone in both Rhodes and Caliga Hall.
-        // Setting it to 1 re-enables it, even outside of chapter 3.
+        // Setting it to 1 re-enables it, even if the game is not in chapter 3.
         *getGlobalPtr(1835011 + 1 + (16 * 74) + 1) = 0; // Global_1835011[iParam0 /*74*/].f_1
 
         // Removes the white region blip from the map
@@ -39,4 +39,5 @@ void ScriptMain()
         AllowWeaponsInRhodes();
         WAIT(0);
     }
+
 }
