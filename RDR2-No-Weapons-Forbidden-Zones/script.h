@@ -10,4 +10,5 @@
 #include "script.h"
 #include "enums.h"
 
-void ScriptMain();
+void ScriptAttach();
+void ScriptDetach();

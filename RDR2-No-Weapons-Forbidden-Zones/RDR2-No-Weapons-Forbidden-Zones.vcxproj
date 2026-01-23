@@ -133,7 +133,7 @@
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
-      <AdditionalLibraryDirectories>C:\Users\Rspect\source\repos\RDR2-No-Weapons-Forbidden-Zones\lib</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Users\Rspect\source\repos\RDR2-No-Weapons-Forbidden-Zones\RDR2-No-Weapons-Forbidden-Zones\lib</AdditionalLibraryDirectories>
       <AdditionalDependencies>ScriptHookRDR2.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -153,6 +153,8 @@
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
+      <AdditionalLibraryDirectories>C:\Users\Rspect\source\repos\RDR2-No-Weapons-Forbidden-Zones\RDR2-No-Weapons-Forbidden-Zones\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>ScriptHookRDR2.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
